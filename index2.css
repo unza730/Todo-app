@@ -1,0 +1,59 @@
+.body{
+background: rgb(56, 45, 49);
+background: radial-gradient(circle, rgb(128, 87, 97) 0%, rgb(172, 172, 240) 100%);}
+#text{
+    padding: 3px !important;
+}
+#delte{
+    position: absolute;
+    right: 0;
+    margin: 0;
+    padding-right: 20px;
+}
+#item{
+    display: flex;
+    justify-content:start ;
+    align-content: center;
+    
+}
+.footer{
+    text-align: center; 
+}
+#refresh{
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    /* padding-right: 20px; */
+}
+#date{
+    position: absolute;
+    margin-top: 50%;
+    left: 0;
+    margin-left: 16px;
+    font-size: 25px;
+    color: white;
+}
+.footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-bottom: 10px;
+}
+.card-body{
+    /* background: rgb(28,0,36);
+background: linear-gradient(90deg, rgba(28,0,36,1) 0%, rgba(78,62,97,1) 35%, rgba(0,212,255,1) 100%); */
+    /* background: rgb(164, 164, 168);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(167,159,168,1) 100%,  rgba(0,212,255,1)0%); */
+/* background: rgb(28,0,36);
+background: linear-gradient(90deg, rgba(28,0,36,1) 0%, rgb(150, 125, 170) 100%, rgba(0,212,255,1) 0%); */
+color: white;
+/* background: rgb(238,174,202);
+
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(171,148,233,1) 72%); */
+background: rgb(56, 45, 49);
+background: radial-gradient(circle, rgb(128, 87, 97) 0%, rgb(172, 172, 240) 100%);
+
+}
+
