@@ -1,0 +1,260 @@
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px 2px 0px;
+    /* border-bottom: 1px solid #ccc; */
+    position: relative;
+  }
+  
+  .text {
+    margin: 0 15px;
+    flex-grow: 1;
+  }
+  
+  .overflow-menu {
+    position: relative;
+  }
+  
+  .fa-ellipsis-h {
+    cursor: pointer;
+  }
+  
+  .menu-options {
+    position: absolute;
+    right: 0;
+    top: 25px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;
+    flex-direction: column;
+    min-width: 100px;
+    text-align: left;
+  }
+  
+  .menu-options p {
+    margin: 0;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .menu-options p:hover {
+    background-color: #444;
+  }
+  
+  .memo {
+    margin-left: 50px;
+    color: #888;
+    font-size: 13px;
+  }
+  .body {
+    font-family: Arial, sans-serif;
+    background-color: black
+}
+
+.container {
+    padding-top: 50px;
+}
+
+.cardd {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    color: white;
+}
+
+li {
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+
+    color: white;
+}
+.bg-image {
+    /* border-radius: 15px 15px 0 0; */
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+#date {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.nav-arrows {
+    margin-top: 10px;
+}
+.input-container{
+    background-color: rgb(55, 52, 52);
+    color: white;
+    margin-bottom: 31px;
+    padding-left: 26px;
+    padding-top: 5px;
+    border-radius: 5px;
+    border: none;
+    margin: 33px;
+
+}
+.input-container:focus{
+    box-shadow: 0 0 5px 2px rgba(52, 152, 219, 0.7); /* Light blue glow effect */
+
+}
+#input {
+    background-color: rgb(55, 52, 52);
+    color: white;
+    /* margin-bottom: 15px; */
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+#input:focus {
+    outline: none;
+    /* box-shadow: 0 0 5px 2px rgba(52, 152, 219, 0.7); Light blue glow effect */
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer i {
+    cursor: pointer;
+}
+
+/* .card-body{
+    overflow: scroll;
+    overflow-x: hidden
+} */
+.overflow-menu {
+    /* position: relative;
+    display: inline-block; */
+}
+
+.menu-options {
+    cursor: pointer;
+    /* position: absolute;
+    right: 0; 
+    top: 25px;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    display: none;
+    flex-direction: column; */
+}
+
+.menu-options p {
+    margin: 5px 0;
+    cursor: pointer;
+    padding: 6px;
+    cursor: pointer;
+}
+
+.menu-options p:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-radius: 7px;
+    /* padding: 5px; */
+}
+
+.card-body {
+    overflow: scroll;
+    overflow-x: hidden;
+    padding: 0px 24px 0px 0px !important;
+    background-color: #3c424a;
+}
+
+/* Scrollbar container */
+.card-body::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+}
+
+/* Scrollbar track */
+.card-body::-webkit-scrollbar-track {
+    background: transparent; /* Optional: You can set a background for the track */
+}
+
+/* Scrollbar thumb (the draggable part) */
+.card-body::-webkit-scrollbar-thumb {
+    background-color: rgb(212, 211, 211); /* Set the thumb color */
+    border-radius: 50px; /* Set the border radius */
+}
+
+/* Optional: You can add hover effect for better user interaction */
+.card-body::-webkit-scrollbar-thumb:hover {
+    background-color: darkgray; /* Darken thumb on hover */
+}
+
+
+/* --- */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .todo-list {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-text {
+    font-size: 16px;
+  }
+  
+  .menu {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .menu-dots {
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .dropdown-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .menu:hover .dropdown {
+    display: block;
+  }
+  
