@@ -84,7 +84,7 @@ function addToDo2(toDo, id, done, trash, pinned, memo, isLastPinned = false) {
 
 
         ${pinned ? "📌" : ""}
-        <i class="fas ${DONE}" id="${id}" job="complete"></i>
+        <i class="fas ${DONE}" id="${id}" job="complete" style="cursor:pointer;"></i>
         <p class="text">${toDo}</p>
         <div class="overflow-menu">
           <i class="fas fa-ellipsis-h" job="menu" data-id="${id}"></i>
